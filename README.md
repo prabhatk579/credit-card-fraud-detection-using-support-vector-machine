@@ -101,7 +101,7 @@ plot_confusion_matrix(cm,class_names)
 The accuracy of our model is `99.79%` which is a lot more better when compared to the linear model's accuracy `95.94%`.
 The confusion matrix is as follows:
 <p align = center><img src = https://user-images.githubusercontent.com/54438860/120147477-56fcd500-c204-11eb-8929-27017ceb4cfb.png></p>
-<h5 align = center>Fig 5: Confusion matrix of testing model by using Polynomial kernel</h5>
+<h5 align = center>Fig 6: Confusion matrix of testing model by using Polynomial kernel</h5>
 
 ### Radial Basis Function (RBF) Kernel
 For RBF kernel the syntax is as follows:
@@ -115,7 +115,7 @@ plot_confusion_matrix(cm,class_names)
 After using RBF as a kernel, we got an accuracy of `97.38%` which is still better than the linear but not as good as polynomial.
 It's Confusion matrix is as follows:
 <p align = center><img src = https://user-images.githubusercontent.com/54438860/120148022-397c3b00-c205-11eb-937e-2d9b65e283ff.png></p>
-<h5 align = center>Fig 6: Confusion matrix of testing model by using RBF kernel</h5>
+<h5 align = center>Fig 7: Confusion matrix of testing model by using RBF kernel</h5>
 
 ### Sigmoid Kernel
 For Sigmoid kernel the syntax is as follows:
@@ -129,7 +129,7 @@ plot_confusion_matrix(cm,class_names)
 After using Sigmoid as a kernel, we get accuracy of `66.75%` which is much worse than other kernel. This is because our data is highly non-linear and cannot be properly classified using sigmoid function.
 It's confusion matrix is as follows:
 <p align = center><img src = https://user-images.githubusercontent.com/54438860/120148371-b9a2a080-c205-11eb-8f81-8381e10caa62.png></p>
-<h5 align = center>Fig 7: Confusion matrix of testing model by using Sigmoid kernel</h5>
+<h5 align = center>Fig 8: Confusion matrix of testing model by using Sigmoid kernel</h5>
 
 ## Precision, Recall, F1-Score, Mean Absolute Error, Mean Percentage Error and Mean Squared Error
 We can find Precision, Recall, F1-Score, Mean Absolute Error, Mean Percentage Error and Mean Squared Error using the following synatx:
